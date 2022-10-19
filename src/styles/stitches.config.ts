@@ -50,6 +50,7 @@ export const { styled, globalCss, createTheme, css } = createStitches({
       baseText: '#080F05',
       baseSubText: '#20211f',
       baseParagraph: '#9B9B9B',
+      background: '#ffffff',
     },
     space: {
       1: '1rem',

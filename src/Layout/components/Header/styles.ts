@@ -1,6 +1,7 @@
 import { styled } from "../../../styles/stitches.config";
 
 export const HeaderContainer = styled('div', {
+
 })
 
 export const Nav = styled('nav', {
@@ -13,8 +14,18 @@ export const Nav = styled('nav', {
     cursor: "pointer",
   },
   
+  '& .open': {
+    right: "0",
+    transition: 'ease-in .3s',
+  },
+  
+  '& .close': {
+    right: "-15rem",
+    transition: 'ease-out .2s',
+  },
+  
   "@bp1": {
-    '& svg': {
+    '& > svg': {
       display: "none",
     },
   }
@@ -35,12 +46,6 @@ export const HeaderNavBar = styled('div', {
   '& li': {
     cursor: "pointer",
     width: "max-content",
-  },
-
-  '& svg': {
-    position: "absolute",
-    right: "1rem",
-    cursor: "pointer",
   },
 
   "@bp1": {
@@ -115,7 +120,6 @@ export const HeaderContent = styled('div', {
       maxWidth: "40rem",
     },
   },
-
 })
 
 export const WrapContent = styled('div', {

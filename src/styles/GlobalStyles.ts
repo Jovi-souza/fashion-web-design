@@ -12,6 +12,7 @@ export const GlobalCss = globalCss({
   body: {
     webkitFontSmoothing: 'antialiased',
     fontFamily: 'Poppins, sans-serif',
+    backgroundColor: "$background"
   },
 
   html: {
