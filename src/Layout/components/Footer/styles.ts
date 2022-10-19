@@ -27,6 +27,15 @@ export const FooterContainer = styled('div', {
       gap: '1rem'
     }
   },
+
+  '@bp2': {
+    gap: "7rem",
+  },
+
+  '@bp3': {
+    gap: "10rem",
+  },
+
 })
 
 export const FooterItems = styled('div', {
@@ -41,5 +50,21 @@ export const FooterItems = styled('div', {
   '& div': {
     display: "flex",
     gap: "1rem"
+  },
+
+  '@bp2': {
+    '& h1': {
+      fontSize: "1.5rem"
+    },
+
+    '& li': {
+      fontSize: "1.25rem"
+    },
+  },
+  
+  '@bp3': {
+    '& li': {
+      fontSize: ""
+    },
   },
 })

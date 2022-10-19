@@ -10,8 +10,7 @@ export const TrendsContainer = styled('div', {
     flexDirection: 'initial',
     justifyContent: 'center',
     alignItems: 'center',
-    gap: '2rem',
-  }
+  },
 })
 
 export const TrendsItems = styled('div', {
@@ -74,6 +73,32 @@ export const TrendsItems = styled('div', {
     '&:first-child': {
       width: '26rem',
       alignItems: 'start',
+    },
+  },
+
+  '@bp2': {
+    '& h1': {
+      width: "28rem",
+      fontSize: "4rem"
+    },
+    
+    '& p': {
+      width: "36rem",
+      fontSize: "1.5rem"
+    },
+
+    '&:first-child': {
+      width: '26rem',
+    },
+
+    '&:last-child': {
+      maxWidth: "38rem",
+    },
+  },
+
+  '@bp3': {
+    '& img': {
+      height: '26rem',
     },
   }
 })

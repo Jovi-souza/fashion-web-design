@@ -10,7 +10,16 @@ export const DealsContainer = styled('div', {
     flexDirection: 'row-reverse',
     justifyContent: 'center',
     alignItems: 'center',
-  }
+  },
+
+  '@bp2': {
+    gap: '7rem'
+  },
+
+  '@bp3': {
+    gap: '10rem'
+  },
+
 })
 
 export const DealsItems = styled('div', {
@@ -51,7 +60,7 @@ export const DealsItems = styled('div', {
 
   '&:last-child': {
     justifyContent: "center",
-    maxWidth: "30rem",
+    maxWidth: "40rem",
     flexDirection: "initial",
     flexWrap: "wrap",
   },
@@ -103,6 +112,41 @@ export const DealsItems = styled('div', {
     '&:last-child': {
       width: '30rem',
       alignItems: 'start',
+    }
+  },
+
+  '@bp2': {
+    margin: "0 10rem 0 -7rem",
+    '& h1': {
+      fontSize: "4rem",
+      width: "30rem"
+    },
+    
+    '& p': {
+      width: "36rem",
+      fontSize: "1.5rem"
+    },
+
+    '&:first-child': {
+      width: "16rem",
+      alignItems: "flex-start",
+    },
+  },
+
+  '@bp3': {
+    margin: "0 18rem 0 -7rem",
+
+    '& img': {
+      width: '16rem'
+    },
+    
+    '& div': {
+      width: "16rem",
+      height: "24.5rem",
+    },
+
+    '&:last-child': {
+      width: '40rem',
     }
   }
 })

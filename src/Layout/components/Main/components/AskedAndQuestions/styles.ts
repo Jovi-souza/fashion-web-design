@@ -41,8 +41,20 @@ export const Trigger = styled(Accordion.Trigger, {
 })
 
 export const Content = styled(Accordion.Content, {
-  maxWidth: "25rem",
-  textAlign: 'center',
+  display: 'flex',
+  justifyContent: "center",
+  alignItems: "center",
+  width: "25rem",
   marginTop: "1rem",
-  color: "$baseParagraph"
+  color: "$baseParagraph",
+
+  '@bp2': {
+    fontSize: "1.25rem",
+    width: "30rem",
+  },
+  
+  '@bp3': {
+    fontSize: "1.5rem",
+    width: "35rem",
+  },
 })

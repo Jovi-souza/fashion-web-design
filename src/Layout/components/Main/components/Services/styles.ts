@@ -12,7 +12,15 @@ export const ServicesContainer = styled('div', {
   "@bp1": {
     flexDirection: "row",
     flexWrap: 'wrap',
-  }
+  },
+
+  "@bp2": {
+    gap: "6rem"
+  },
+
+  "@bp3": {
+    gap: "10rem"
+  },
 })
 
 export const ServicesItems = styled('div', {
@@ -36,6 +44,35 @@ export const ServicesItems = styled('div', {
   "@bp1": {
     '& img': {
       width: "8rem"
+    }
+  },
+
+  "@bp2": {
+    '& strong': {
+      fontSize: '1.75rem'
+    },
+    
+    '& p': {
+      fontSize: '1.25rem'
+    }, 
+
+    '& img': {
+      width: "10rem"
+    }
+  },
+
+  "@bp3": {
+    '& strong': {
+      fontSize: '2rem'
+    },
+    
+    '& p': {
+      fontSize: '1.5rem',
+      width: '30rem',
+    }, 
+
+    '& img': {
+      width: "12rem"
     }
   }
 })
