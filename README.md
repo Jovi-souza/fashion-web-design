@@ -18,18 +18,14 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Landing Page para focar em componentes
+  Landing Page para treinar Stitches e responsividade.
 </p>
 
 ## Funcionalidades
 
-:heavy_check_mark: Funcionalidade 1  
+:heavy_check_mark: Menu Hamburguer.
 
-:heavy_check_mark: Funcionalidade 2  
-
-:heavy_check_mark: Funcionalidade 3  
-
-:heavy_check_mark: Funcionalidade 4  
+:heavy_check_mark: Responsivo.
 
 ## Layout:dash:
 
